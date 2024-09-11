@@ -1,0 +1,22 @@
+{
+  "name": "tor-langen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LSDsloth/tor-langen.git"
+  },
+  "author": "Stian Libeck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LSDsloth/tor-langen/issues"
+  },
+  "homepage": "https://github.com/LSDsloth/tor-langen#readme",
+  "description": "",
+  "dependencies": {
+    "wavesurfer.js": "^7.8.5"
+  }
+}
