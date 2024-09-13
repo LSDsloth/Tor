@@ -8,6 +8,7 @@
     <!-- <script defer src="https://unpkg.com/wavesurfer.js"></script>
     <script src="https://unpkg.com/wavesurfer.js@7/dist/plugins/hover.min.js"></script> -->
     <script defer type="module" src="/scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/f378410401.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- TOP NAVIGATION -->
@@ -28,7 +29,7 @@
 
 <!-- SECTION 1 -->
 
-    <section class="section-1">
+    <section class="section-1" id="top">
         <div class="img-wrapper">
             <!-- <img src="/bilder/bilde-1.jpg" alt="Bilde av Tor"> -->
         </div>
@@ -75,16 +76,37 @@
         
         </div> -->
 
-        
+        <div class="cover-wrapper">
+            <div class="background-img"></div>
+                <div class="song-info">
+                    <div class="cover-img-wrapper">
+                        <img class="cover-img" src="../bilder/bilde-3.jpg" alt="">
+                    </div>
+                    <a href="#" class="song-name">Tor Volume.1</a>
+                    <div class="waveform-wrapper">
+                        <div id="time">0:00</div>
+                        <div id="waveform">
+                        </div>
+                        <div id="duration">0:00</div>
+                    </div>
+                    <div class="audio-controls">
+                        <svg xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="control-buttons icon icon-tabler icons-tabler-filled icon-tabler-player-skip-back"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.496 4.136l-12 7a1 1 0 0 0 0 1.728l12 7a1 1 0 0 0 1.504 -.864v-14a1 1 0 0 0 -1.504 -.864z" /><path d="M4 4a1 1 0 0 1 .993 .883l.007 .117v14a1 1 0 0 1 -1.993 .117l-.007 -.117v-14a1 1 0 0 1 1 -1z" /></svg>
+                        
+                        <svg id="playButton" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="control-buttons icon icon-tabler icons-tabler-filled icon-tabler-player-play"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" /></svg>
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="control-buttons icon icon-tabler icons-tabler-filled icon-tabler-player-skip-forward"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5v14a1 1 0 0 0 1.504 .864l12 -7a1 1 0 0 0 0 -1.728l-12 -7a1 1 0 0 0 -1.504 .864z" /><path d="M20 4a1 1 0 0 1 .993 .883l.007 .117v14a1 1 0 0 1 -1.993 .117l-.007 -.117v-14a1 1 0 0 1 1 -1z" /></svg>
+                    </div>
+                </div>
+        </div>
 
     </section>
     
 
-    <section class="section-3">
+    <!-- <section class="section-3">
         <div id="waveform"></div>
         <button id="playButton">Play / Pause</button>
-    </section>
+    </section> -->
 
-    <a class="bunn" href="#top-bar">Gå til topp</a>
+    <a class="bunn" href="#top">Gå til topp</a>
 </body>
 </html>
