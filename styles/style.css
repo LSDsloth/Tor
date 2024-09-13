@@ -18,13 +18,14 @@ font-weight: 500;
     height: 100px;
     width: 100%;
     padding: 0 20px;
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .7));
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
     z-index: 1;
+    border-radius: 0 0 30px 30px;
 }
 
 .logo {
@@ -99,6 +100,7 @@ a {
 .section-2 {
     width: 100%;
     height: 90vh;
+    background-color: #000;
 }
 
 .sanger {
@@ -120,7 +122,7 @@ a {
     outline: none;
 }
 
-.cover-wrapper {
+#cover-wrapper {
     position: relative;
     width: 100%;
     height: 90vh;
@@ -134,7 +136,16 @@ a {
     background-position: center;
     background-size: cover;
     filter: blur(10px) brightness(70%);
+}
 
+#cover-wrapper .blur {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    filter: blur(10px) brightness(70%);
 }
 
 .song-info {
@@ -170,6 +181,10 @@ a {
     color: #fff;
 }
 
+.song-info .song-name:hover, .song-info .song-name:focus {
+    text-decoration: underline;
+}
+
 /* TEST */
 
 #waveform {
@@ -192,14 +207,15 @@ a {
 .audio-controls {
     display: flex;
     justify-content: space-around;
-  }
+}
 
-  .control-buttons {
+.control-buttons {
     border: white 2px solid;
     color: #fff;
     border-radius: 100%;
     width: 50px;
     height: 50px;
     padding: 10px;
-  }
+    cursor: pointer;
+}
   

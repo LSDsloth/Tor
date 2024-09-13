@@ -17,6 +17,6 @@
   "homepage": "https://github.com/LSDsloth/tor-langen#readme",
   "description": "",
   "dependencies": {
-    "wavesurfer.js": "^7.8.5"
+    "wavesurfer.js": "^7.8.6"
   }
 }
